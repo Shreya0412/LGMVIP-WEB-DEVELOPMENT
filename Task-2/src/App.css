@@ -1,0 +1,91 @@
+body{
+  background-color: rgb(241, 195, 241);
+}
+button{
+  color: black;
+  font-weight: 600;
+  float: right;
+  border-radius: 15px;
+  border: none;
+  background-color:  lightgrey;
+  padding: 12px 10px;
+  margin-top: -65px;
+  border: 2px solid black;
+}
+button:hover{
+  transition: 200ms;
+ scale:1.03;
+ background-color: rgb(241, 146, 162);
+}
+
+.column-1{
+  height: 90%;
+  float: left;
+  width: 90%;
+}
+.column1 h2{
+  margin-top: 5px;
+  margin-left: 250px;
+}
+.column-2{
+  height: 100%;
+  float: left;
+  width: 10%;
+}
+.row{
+  height: 45px;
+  padding: 24px 35px 15px 30px ;
+}
+
+.box{
+  background-color: purple !important;
+  color:white;
+
+}
+
+.box-2{
+  margin-left: 100px;
+}
+.avatar{
+  border-radius: 0%;
+}
+
+.loader{
+  height: 200px;
+  width: 350px;
+  margin-left: 300px;
+  margin-right: 0px;
+}
+
+  .column-3{
+    display: block;
+    width: 400px;
+    margin: 30px auto;
+    text-align: center;
+    height: 225px;
+  
+  }
+  .name{
+    font-size: medium;
+    font-weight: bold;
+  }
+  .email{
+    font-size: small;
+  }
+  .profile{
+    border: 2px solid black;
+    text-align: center;
+    height: 225px;
+    background-color: lightgray;
+    border-radius: 30px;
+    display: block;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+
+  }
+
+.column-3 :hover{
+  background-color:rosybrown;
+}
+.userId{
+  font-size: small;
+}
