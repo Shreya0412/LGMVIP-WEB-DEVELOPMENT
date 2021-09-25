@@ -1,0 +1,558 @@
+/* CSS Reset */
+*{
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Roboto", sans-serif;
+ margin: -1%;
+  padding: 0%;
+  height: 6100px;
+}
+
+.header {
+  color: white;
+  /* background-image: url("img/sunset-918555_1920.jpg"); */
+  /* background-repeat: no-repeat; */
+  height: 600px;
+}
+
+.left {
+  display: block;
+  width: 20%;
+  /* margin: -271px 396px; */
+  font-size: 30px;
+  font-weight: bold;
+}
+ #col1{
+  margin-top: -600px;
+  margin-left: 397px;
+} 
+
+.right {
+  display: inline-block;
+  position: absolute;
+  right: 34px;
+  top: 20px;
+}
+
+.navbar {
+  display: inline-block;
+  font-size: 15px;
+}
+
+.navbar li {
+  display: inline-block;
+  color: white;
+}
+
+.navbar li a {
+  color: white;
+  text-decoration: none;
+  padding: 34px 23px;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+  color: yellow;
+}
+
+.container {
+  /* border: 2px solid black; */
+  margin: 90px 360px;
+  padding: 33px;
+  width: 30%;
+  border-radius: 28px;
+}
+
+.btn {
+  background-color: yellow;
+  font-weight: bold;
+  color: black;
+  padding: 2%;
+  margin: 0px 9px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: purple;
+  color: white;
+}
+
+.welcome {
+  background-color: white;
+  color: black;
+  margin: 0px auto;
+  width: 1000px;
+
+}
+
+.welcome h2 {
+  display: block;
+  width: 34%;
+  margin: 51px auto;
+  font-size: 37px;
+  font-weight: bold;
+  padding: 8px;
+}
+
+.wel {
+  display: inline-block;
+  font-size: 20px;
+  width: 47%;
+  margin: 7% 11%;
+  padding: 2%;
+}
+
+.we {
+  display: inline-block;
+  width: 20%;
+  object-fit: none;
+  object-position: 30px 30px;
+  padding: 2px;
+  margin: 4px;
+}
+
+.we img {
+  height: 150px;
+  width: 150px;
+}
+
+.sec {
+  margin: 20px;
+  padding: 20px;
+  width: 29%;
+  box-sizing: border-box;
+  display: inline-block;
+  text-align: center;
+}
+
+.sec img {
+  height: 140px;
+  width: 246px;
+}
+
+.project h2 {
+  display: block;
+  width: 10%;
+  margin: 51px auto;
+  font-size: 37px;
+  font-weight: bold;
+  padding: 8px;
+}
+
+.project {
+  background-color: white;
+  color: black;
+  margin: 0px auto;
+  width: fit-content;
+  /* border: 2px solid black; */
+  height: 620px;
+}
+
+.pro1 {
+  width: fit-content;
+}
+
+.ab1 {
+  padding: 2px;
+  width: 24%;
+  height: 100%;
+  box-sizing: border-box;
+  display: inline-block;
+  text-align: left;
+  background-color: lightgrey;
+  color: black;
+}
+
+.ab1:hover {
+  background-color: yellow;
+}
+
+.button {
+  background-color: rgb(158, 153, 153);
+  font-weight: bold;
+  color: black;
+  padding: 2%;
+  margin: 0px 9px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: purple;
+  color: white;
+}
+
+/* .ab1 :hover{
+    background-color: yellow;
+} */
+
+.ab1 img {
+  height: 240px;
+  width: 360px;
+}
+
+.pricing h2 {
+  display: block;
+  width: 20%;
+  margin: 40px auto;
+  font-size: 37px;
+  font-weight: bold;
+  padding: 8px;
+}
+
+.abtprice {
+  display: block;
+  width: 50%;
+  margin: 30px auto;
+  padding: 4px;
+}
+
+table {
+  column-gap: 60px;
+  text-align: center;
+  margin: auto;
+  padding: 10px;
+}
+
+/* .vl {
+ border-left: 6px solid rgb(202, 198, 198);
+ height: 50px; */
+table th,
+td {
+  border-right: 1px solid black;
+  border-spacing: 6px;
+}
+
+table th {
+  padding: 4px;
+}
+
+.buton {
+  background-color: yellow;
+  font-weight: bold;
+  color: black;
+  padding: 2%;
+  margin: 0px 9px;
+  font-size: 10px;
+  cursor: pointer;
+  width: 40px;
+}
+
+.buton:hover {
+  background-color: purple;
+  color: white;
+}
+
+.vprojects {
+  background-color: purple;
+  color: white;
+  height: 500px;
+}
+
+.vprojects h2 {
+  display: block;
+  width: 20%;
+  margin: 40px auto;
+  /* border: 2px solid white; */
+  font-size: 37px;
+  font-weight: bold;
+  padding: 8px;
+}
+
+ul.slides {
+  display: block;
+  /* border: 2px solid white; */
+  margin: 30px auto;
+  width: fit-content;
+  height: 320px;
+}
+
+ul.slides li {
+  height: 350px;
+  text-decoration: none;
+  display: inline-block;
+  padding: 0px 4px;
+}
+
+.team h2 {
+  display: block;
+  width: 42%;
+  margin: 40px auto;
+  /* border: 2px solid black; */
+  font-size: 37px;
+  font-weight: bold;
+  padding: 8px;
+}
+
+.team {
+  display: block;
+  /* border: 2px solid black; */
+  width: 50%;
+  margin: auto;
+}
+
+.team1 img {
+  border-radius: 50%;
+  height: 120px;
+  width: 140px;
+}
+
+.v1 {
+  margin-top: auto;
+}
+
+ul.t1 li {
+  /* border: 4px solid black; */
+  margin: 20px auto;
+  width: 29%;
+  box-sizing: border-box;
+
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  padding: 0px 4px;
+}
+
+ul.t2 li {
+  /* border: 4px solid black; */
+  margin: 20px auto;
+  width: 29%;
+  box-sizing: border-box;
+
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  padding: 0px 4px;
+}
+
+.contain {
+  background-color: lightgrey;
+  /* border: 2px solid black; */
+  height: 600px;
+}
+
+.contain h2 {
+  display: block;
+  width: 22%;
+  margin: 40px auto;
+  /* border: 2px solid black; */
+  font-size: 37px;
+  font-weight: bold;
+  padding: 8px;
+}
+
+.l1 img {
+  height: 350px;
+  width: 550px;
+}
+
+.l2 img {
+  height: 80px;
+  width: 130px;
+  padding: 2px;
+}
+
+.pics {
+
+  display: block;
+  width: 40%;
+  margin: 2% auto;
+}
+
+.news {
+  color: white;
+  height: 300px;
+  background-image: url("images/img/bridge-1635387_1920.jpg");
+  margin-top: -4%;
+}
+
+.news h2 {
+  display: block;
+  width: 22%;
+  margin: 40px auto;
+  font-size: 37px;
+  font-weight: bold;
+  padding: 8px;
+}
+
+.in {
+  display: block;
+  width: 349px;
+  padding: 4px;
+  margin: 40px auto;
+}
+
+.in input {
+  width: 245px;
+  height: 30px;
+}
+
+.btn2 {
+  height: 30px;
+  background-color: yellow;
+  color: black;
+
+  font-weight: bold;
+
+  padding: 2%;
+  margin: 0px 9px;
+
+  cursor: pointer;
+}
+
+.btn2:hover {
+  background-color: purple;
+  color: white;
+}
+
+.blog {
+  height: 500px;
+  width: 1000px;
+  display: block;
+  margin: 150px auto;
+}
+
+.blog h2 {
+  display: block;
+  color: black;
+  width: 15%;
+  margin: 10px auto;
+  font-size: 37px;
+  font-weight: bold;
+  padding: 8px;
+}
+
+.b1 {
+  margin: 20px;
+  padding: 20px;
+  width: 29%;
+  box-sizing: border-box;
+  display: inline-block;
+  text-align: center;
+  color: black;
+}
+
+.b1 img {
+  height: 140px;
+  width: 246px;
+}
+
+.btn3 {
+  font-weight: bold;
+  background-color: lightgrey;
+  color: black;
+  padding: 2%;
+  cursor: pointer;
+  margin: 0px 9px;
+}
+
+.btn3:hover {
+  background-color: yellow;
+}
+
+.contact {
+  height: 515px;
+  width: 1500px;
+  display: inline-block;
+  margin: -90px auto;
+  background-color: yellow;
+  color: black;
+  font-weight: bold;
+  padding: 2px;
+
+  box-sizing: border-box;
+
+  text-align: left;
+}
+
+.c1 {
+  width: 50.5%;
+  float: left;
+}
+
+.c1 img {
+  width: 750px;
+  height: 500px;
+}
+
+.c2 {
+  text-align: left;
+  font-size: 10px;
+  width: 48%;
+  height: 100%;
+
+  float: right;
+}
+
+.c2 h2 {
+  font-size: 30px;
+  display: inline-block;
+}
+
+.form {
+  text-align: left;
+  /* display: block; */
+  width: 508px;
+  padding: 1px;
+  font-size: 10px;
+  
+}
+
+#name {
+  width: 500px;
+}
+
+.fbtn {
+  font-weight: bold;
+  background-color: purple;
+  color: white;
+  padding: 1%;
+  cursor: pointer;
+  width: 52%;
+}
+.cont {
+  background-color: white;
+  height: 300px;
+  color: black;
+  display: block;
+  margin: 125px auto;
+  width: 50%;
+}
+.cont1 {
+  margin: 20px 10px;
+  padding: 20px;
+  width: 25%;
+  box-sizing: border-box;
+  display: inline-block;
+  text-align: center;
+  color: black;
+
+}
+.cont2 {
+  
+  margin: 20px 10px;
+  padding: 20px;
+  width: 25%;
+  box-sizing: border-box;
+  display: inline-block;
+  text-align: center;
+  color: black;
+
+}
+.cont3 {
+ 
+  margin: 20px 10px;
+  padding: 20px;
+  width: 25%;
+  box-sizing: border-box;
+  display: inline-block;
+  text-align: center;
+  color: black;
+
+}
+.cont2 img {
+  height: 80px;
+  width: 100px;
+}
