@@ -18,7 +18,6 @@ const UserCard = ({loading,users}) => {
                           <img src={user.avatar} alt={user.avatar} className="avatar"></img>
                           <h1 className="name">{user.first_name} {user.last_name}</h1>
                           <p className="email">{user.email}</p>
-                          <p className="userId">User_ID: {user.id}</p>
                         </div>
                       </div>
             )
